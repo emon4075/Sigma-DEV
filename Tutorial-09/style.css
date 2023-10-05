@@ -1,0 +1,13 @@
+.Number {
+    color: whitesmoke;
+    background-color: black;
+}
+
+#name {
+    color: wheat;
+    background-color: darkblue;
+}
+
+#roll {
+    background-color: goldenrod;
+}
