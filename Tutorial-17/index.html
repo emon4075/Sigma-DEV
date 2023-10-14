@@ -1,0 +1,74 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>CSS Selectors</title>
+    <style>
+        /* Element Selector */
+        div {
+            color: red;
+            background-color: black;
+        }
+
+        /* Class Selector */
+        .Green {
+            color: whitesmoke;
+            background-color: yellowgreen;
+        }
+
+        /* Id Selector */
+        #Independent {
+            color: goldenrod;
+            background-color: black;
+        }
+
+        /* Child Selector */
+        div>p {
+            color: white;
+            background-color: blueviolet;
+        }
+
+        /* Descendant Selector  */
+        div p {
+            color: blue;
+            background-color: brown;
+        }
+
+        /* Pseodo Selector */
+        a:link {
+            color: green;
+        }
+
+        a:visited {
+            color: red;
+        }
+
+        a:hover {
+            color: black;
+        }
+    </style>
+</head>
+
+<body>
+    <div class="Red">
+        I am a Div.
+        <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Ullam, repudiandae?</p>
+    </div>
+    <div class="Green">
+        I am another Div.
+        <article>
+            <p>Lorem ipsum dolor sit, amet consectetur adipisicing elit. Eos, maiores!</p>
+        </article>
+    </div>
+    <p id="Independent">Lorem ipsum dolor sit amet, consectetur adipisicing elit. Recusandae, cumque ipsum. Nulla
+        excepturi ipsam sunt voluptatem a vero dolor sequi recusandae? Corporis eaque soluta a quam hic? Facere
+        recusandae nihil fugiat veniam eveniet?
+    </p>
+    <a href="https://www.google.com/" target="_blank">Reach Google</a>
+    <br>
+    <a href="https://www.facebook.com/" target="_blank">Reach Facebook</a>
+</body>
+
+</html>
