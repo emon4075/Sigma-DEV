@@ -1,0 +1,24 @@
+h1 {
+    text-transform: capitalize;
+    text-align: center;
+}
+
+h2 {
+    text-transform: capitalize;
+    text-align: center;
+}
+li{
+    font-weight: bold;
+}
+#keyword{
+    color: darkblue;
+}
+#hex{
+    color: #7f68a1;
+}
+#RGB{
+    color: rgb(104, 132, 161);
+}
+#RGBA{
+    color: rgba(245, 100, 158, 0.26);
+}

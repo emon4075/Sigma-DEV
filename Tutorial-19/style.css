@@ -1,0 +1,38 @@
+h1 {
+    /* font-family: 'Alumni Sans Collegiate One', sans-serif; */
+    font-weight: bold;
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
+    text-transform: uppercase;
+    text-decoration: underline;
+    text-decoration-color: blueviolet;
+    text-decoration-style: wavy;
+    text-decoration-thickness: 7px;
+}
+
+p.first {
+    font-family: 'Pacifico', cursive;
+    font-style: italic;
+    font-weight: lighter;
+    text-decoration: underline;
+}
+
+p.second {
+    font-family: system-ui;
+    font-size: 35px;
+    letter-spacing: 5px;
+    line-height: 100px;
+}
+.block{
+    border: 5px solid black;
+    width: 200px;
+    /* text-overflow: ellipsis; */
+    /* text-transform: uppercase; */
+    overflow: hidden;
+    word-break: break-all;
+    
+}
